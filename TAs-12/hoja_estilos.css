@@ -1,0 +1,15 @@
+
+button:nth-child(1) {background-color: black ;
+    color: white;
+    
+}
+
+button:nth-child(2) {background-color: yellow ;
+   
+}
+
+button{ font-size: 28px;
+    font-family: "Helvetica","Times New Roman"; 
+    font-variant: "sans-serif";
+}
+
