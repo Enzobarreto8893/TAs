@@ -1,6 +1,11 @@
 
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -8,11 +13,11 @@ p {
 }
 
 img {
-    width: 50%;
+    width: 50vw;
 }
 
 
-@media (max-width: 1440px) and (min-width: 768px) {
+@media only screen and (max-width: 1439px) {
     body {
         background-color: white;
     }
@@ -22,11 +27,24 @@ img {
     }
 
     img {
-        width: 70%;
+        width: 70vw;
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 769px)  {
+    body {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 70vw;
+    }
+}
+@media only screen and (max-width: 425px) {
     body {
         background-color: blue;
     }
@@ -36,6 +54,6 @@ img {
     }
 
     img {
-        width: 100%;
+        width: 100vw;
     }
 }
